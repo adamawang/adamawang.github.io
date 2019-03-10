@@ -1,27 +1,33 @@
 {
-  "name": "grayscale",
-  "title": "Grayscale",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/grayscale",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  "title": "adamwang.github.io",
+  "scripts": {
+    "start": "gulp watch"
   },
-  "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "browser-sync": "^2.26.3",
-    "font-awesome": "^4.7.0",
-    "gulp": "^4.0.0",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-header": "^2.0.7",
-    "gulp-less": "^4.0.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.2",
-    "jquery": "^3.3.1"
-  },
+  "license": "MIT",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+    "url": "https://github.com/adamawang/adamawang.github.io.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.7.2",
+    "bootstrap": "4.3.1",
+    "jquery": "3.3.1",
+    "jquery.easing": "^1.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.3",
+    "del": "^3.0.0",
+    "gulp": "4.0.0",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean-css": "4.0.0",
+    "gulp-header": "2.0.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.1",
+    "merge-stream": "^1.0.1"
   }
 }
