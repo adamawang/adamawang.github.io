@@ -284,6 +284,40 @@
   color: #fff;
 }
 
+.resume-section {
+  padding: 10rem 0 5rem;
+  background: #161616;
+  min-height: 100vh;
+}
+.resume-section h1 {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  margin-bottom: 4rem;
+}
+.resume-section h2 {
+  font-size: 1rem;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: #64a19d;
+  padding-bottom: 0.75rem;
+  margin: 4rem 0 2rem;
+  border-bottom: 0.25rem solid #64a19d;
+}
+.resume-section .entry {
+  margin-bottom: 3rem;
+}
+.resume-section .entry h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+.resume-section .entry .role {
+  font-size: 90%;
+  margin-bottom: 1.25rem;
+  color: #adb5bd;
+}
+
 html {
   scroll-padding-top: 70px;
 }
