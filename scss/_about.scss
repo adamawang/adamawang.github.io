@@ -1,6 +1,9 @@
+@use "sass:color";
+@use "variables" as *;
+
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  background: linear-gradient(to bottom, $black 0%,#{color.adjust($black, $alpha: -.1)} 75%,#{color.adjust($black, $alpha: -.2)} 100%);
   p {
     margin-bottom: 5rem;
   }

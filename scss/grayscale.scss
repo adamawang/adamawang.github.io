@@ -1,12 +1,18 @@
-@import 'variables.scss';
-@import 'mixins.scss';
-@import 'navbar.scss';
-@import 'masthead.scss';
-@import 'buttons.scss';
-@import 'about.scss';
-@import 'projects.scss';
-@import 'signup.scss';
-@import 'contact.scss';
+@use "sass:color";
+@use "variables" as *;
+@use "mixins";
+@use "navbar";
+@use "masthead";
+@use "buttons";
+@use "about";
+@use "projects";
+@use "signup";
+@use "contact";
+
+html {
+  // Offset in-page anchor scrolling for the fixed navbar
+  scroll-padding-top: 70px;
+}
 
 body {
   font-family: 'Roboto';
@@ -15,10 +21,11 @@ body {
 
 a {
   color: $primary;
+  text-decoration: none;
   &:focus,
   &:hover {
     text-decoration: none;
-    color: darken($primary, 20%);
+    color: color.adjust($primary, $lightness: -20%);
   }
 }
 

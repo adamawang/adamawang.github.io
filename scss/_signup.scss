@@ -1,6 +1,9 @@
+@use "sass:color";
+@use "variables" as *;
+
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/bali.jpg');
+  background: linear-gradient(to bottom, #{color.adjust($black, $alpha: -.9)} 0%,#{color.adjust($black, $alpha: -.5)} 75%,$black 100%), url('../img/bali.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
