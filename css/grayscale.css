@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - adamwang.github.io v ()
- * Copyright 2013-2019 
+ * Copyright 2013-2026 
  * Licensed under MIT (https://github.com/BlackrockDigital//blob/master/LICENSE)
  */
 
@@ -8,50 +8,42 @@
   min-height: 56px;
   background-color: #fff;
 }
-
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
   color: #64a19d;
   border: 1px solid #64a19d;
 }
-
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
-
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: .9rem 0;
+  padding: 0.9rem 0;
 }
-
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
 }
-
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
-
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
     background-color: transparent;
-    -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .nav-link {
-    -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.8);
@@ -77,7 +69,7 @@
     color: #64a19d;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: rgb(27.3139617293%, 45.0389794472%, 43.8766832034%);
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #64a19d;
@@ -92,16 +84,14 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/HaLongVietnam.jpg");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/HaLongVietnam.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-
 .masthead h1 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.4rem;
@@ -109,19 +99,16 @@
   -webkit-text-fill-color: white;
   -webkit-background-clip: text;
 }
-
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
-
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
-
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -139,31 +126,27 @@
 }
 
 .btn {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 80%;
   text-transform: uppercase;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   border: 0;
 }
 
 .btn-primary {
   background-color: #64a19d;
 }
-
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: rgb(31.0890621309%, 51.2638790456%, 49.9409402315%);
 }
-
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: rgb(31.0890621309%, 51.2638790456%, 49.9409402315%);
   color: white;
 }
-
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: rgb(27.3139617293%, 45.0389794472%, 43.8766832034%) !important;
 }
 
 .btn-circle {
@@ -176,7 +159,6 @@
   font-size: 40px;
   color: rgba(255, 255, 255, 0.7);
   background: transparent;
-  -webkit-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 
@@ -207,10 +189,8 @@
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
-
 .about-section p {
   margin-bottom: 5rem;
 }
@@ -222,50 +202,44 @@
 .projects-section {
   padding: 10rem 0;
 }
-
 .projects-section .featured-text {
   padding: 2rem;
 }
-
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
-
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
   }
   .projects-section .project-text hr {
+    opacity: 1;
     border-color: #64a19d;
-    border-width: .25rem;
+    border-width: 0.25rem;
     width: 30%;
   }
 }
 
 .signup-section {
   padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bali.jpg");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bali.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-
 .signup-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -275,29 +249,25 @@
 .contact-section {
   padding: 5rem 0 0;
 }
-
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
 }
-
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
-
 .contact-section .card hr {
+  opacity: 1;
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
 }
-
 .contact-section .social {
   margin-top: 5rem;
 }
-
 .contact-section .social a {
   text-align: center;
   height: 3rem;
@@ -307,27 +277,29 @@
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
-
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-
 .contact-section .social a:active {
   color: #fff;
 }
 
+html {
+  scroll-padding-top: 70px;
+}
+
 body {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   letter-spacing: 0.0625em;
 }
 
 a {
   color: #64a19d;
+  text-decoration: none;
 }
-
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: rgb(23.5388613277%, 38.8140798488%, 37.8124261753%);
 }
 
 .bg-black {

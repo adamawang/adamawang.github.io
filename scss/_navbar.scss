@@ -1,3 +1,6 @@
+@use "sass:color";
+@use "variables" as *;
+
 #mainNav {
   min-height: 56px;
   background-color: $white;
@@ -18,7 +21,7 @@
   .navbar-nav {
     .nav-item {
       &:hover {
-        color: fade(white, 80%);
+        color: rgba($white, .8);
         outline: none;
         background-color: transparent;
       }
@@ -37,14 +40,14 @@
     transition: background-color 0.3s ease-in-out;
     .navbar-brand {
       padding: .5rem 0;
-      color: fade-out($white, .2);
+      color: color.adjust($white, $alpha: -.2);
     }
     .nav-link {
       transition: none;
       padding: 2rem 1.5rem;
-      color: fade-out($white, .2);
+      color: color.adjust($white, $alpha: -.2);
       &:hover {
-        color: fade-out($white, .25);
+        color: color.adjust($white, $alpha: -.25);
       }
       &:active {
         color: white;
@@ -63,7 +66,7 @@
           color: $primary;
         }
         &:active {
-          color: darken($primary, 15%);
+          color: color.adjust($primary, $lightness: -15%);
         }
         &.active {
           color: $primary;

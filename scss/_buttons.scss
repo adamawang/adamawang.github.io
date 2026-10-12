@@ -1,3 +1,6 @@
+@use "sass:color";
+@use "variables" as *;
+
 .btn {
   box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1) !important;
   padding: 1.25rem 2rem;
@@ -11,14 +14,14 @@
 .btn-primary {
   background-color: $primary;
   &:hover {
-    background-color: darken($primary, 10%);
+    background-color: color.adjust($primary, $lightness: -10%);
   }
   &:focus {
-    background-color: darken($primary, 10%);
+    background-color: color.adjust($primary, $lightness: -10%);
     color: white;
   }
   &:active {
-    background-color: darken($primary, 15%) !important;
+    background-color: color.adjust($primary, $lightness: -15%) !important;
   }
 }
 
@@ -27,10 +30,10 @@
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid fade-out($white, .3);
+  border: 2px solid color.adjust($white, $alpha: -.3);
   border-radius: 100% !important;
   font-size: 40px;
-  color: fade-out($white, .3);
+  color: color.adjust($white, $alpha: -.3);
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
